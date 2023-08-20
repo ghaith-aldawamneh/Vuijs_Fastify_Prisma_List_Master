@@ -2,7 +2,7 @@
 
 A vue component for tree structure. Support adding treenode/leafnode, editing node's name and dragging.
 
-![vue-tree-demo.gif](https://raw.githubusercontent.com/ParadeTo/vue-tree-list/master/img/demo.gif)
+![vue-tree-demo.gif](example.png)
 
 
 # install
