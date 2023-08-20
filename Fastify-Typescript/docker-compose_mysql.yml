@@ -1,0 +1,32 @@
+#docker-compose -f docker-compose_mysql.yml up -d --build
+
+#docker-compose -f docker-compose_mysql.yml up -d
+version: '3.9'
+# docker-compose -f docker-compose_mysql.yml d --build
+services:
+  mysql:
+
+        image: mysql:latest
+        container_name: some_mysqlxx
+        restart: unless-stopped
+
+        volumes:
+            - ./mysql/data:/var/lib/mysql
+            - ./mysql/init:/docker-entrypoint-initdb.d
+
+        ports:
+            - 3308:3308
+
+        environment:
+            MYSQL_DATABASE: some_mysql
+            MYSQL_ROOT_PASSWORD: root
+        networks: 
+            - default
+
+...
+
+
+networks:
+    default:
+        external:
+            name: somename_default

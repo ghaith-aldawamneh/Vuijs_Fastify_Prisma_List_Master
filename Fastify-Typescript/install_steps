@@ -1,0 +1,50 @@
+npm init -y
+npm i fastify
+npm i -D typescript @types/node
+-----
+tsc --init  
+npx tsc --init (if you do not have typescript installed globally you can run it )
+-----
+in the tsconfig.json
+//moduleResolution,baseUrl,outFile,esModuleInterop,forceConsistentCasingInFileNames,strict
+----
+npm install -g nodemon (install nodemon as a globa dependency)
+npm install -g prisma (install nodemon as a globa dependency)
+
+
+npx prisma generate
+npx prisma init --> .env
+npx prisma db push <--change in the schema and let the change to the server
+npx prisma generate interact with database on the server
+ 
+prisma studio 
+
+
+docker build -t mysql_db .    
+docker run -d --name mysql_db_cont mysql_db -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_ROOT_HOST=%
+docker run -p 3308:3308 --name some-mysql_db_cont88 -h 127.0.0.1  -e  MYSQL_DATABASE=some_mysql -e  MYSQL_PASSWORD=root -e  MYSQL_ROOT_PASSWORD=root -d mysql:latest  -d mysql:latest
+docker run -p 3308:3308 --name some-mysql_db_cont88 -h 127.0.0.1  -e MYSQL_ROOT_PASSWORD=root  -d mysql:latest  -d mysql:latest
+docker rm mysql_db_cont -f
+docker image rm  mysql_db -f
+docker exec -it 37abc3186c1f /bin/bash
+cd docker-entrypoint-initdb.d
+-----
+install vuejs:
+npm install -g @vue/cli
+vue create modal-project
+----
+         
+         
+          
+          
+
+
+mysql -proot --> 
+
+-------
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+----
+npm install json-server

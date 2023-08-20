@@ -1,0 +1,30 @@
+{
+  "name": "fastifytypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json -w",
+    "start": "node ./src/index.js",
+    "start_w": "tsc -w & nodemon ./src/index.js",
+    "start_m": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/multipart": "^7.7.3",
+    "@prisma/client": "^5.1.1",
+    "cors": "^2.8.5",
+    "fastify": "^4.21.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "prisma": "^5.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
