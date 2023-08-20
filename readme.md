@@ -1,4 +1,4 @@
-# vue-tree-list
+# FULL STACK vue-tree-list Nodejs Fastify prisma
 
 A vue component for tree structure. Support adding treenode/leafnode, editing node's name and dragging.
 
@@ -7,7 +7,7 @@ A vue component for tree structure. Support adding treenode/leafnode, editing no
 
 # install
 
-Install the plugin then you can use the component globally.
+Install the plugin, and then you can use the component globally.
 
 ```js
 import Vue from 'vue'
