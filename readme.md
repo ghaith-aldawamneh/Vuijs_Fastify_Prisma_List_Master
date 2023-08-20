@@ -1,4 +1,76 @@
-# FULL STACK vue-tree-list Nodejs Fastify prisma
+### FULL STACK Vue-Tree-List Node.js Fastify Prisma
+
+A full-stack project that epitomizes dedication, adaptability, and unshakable resolve, integrating the Vue-Tree-List component with a backend powered by Node.js, Fastify, and Prisma. This project showcases the fusion of skill, determination, and the insatiable quest for excellence.
+
+## Backend Nodejs Fastify
+
+Welcome to the backend repository of the remarkable project that epitomizes dedication, adaptability, and unshakable resolve. This repository contains the codebase for the server-side component of the application, which powers the fusion of skill and passion to forge miracles that surpass the confines of expectation.
+
+
+#Table of Contents
+* **Introduction
+* **Technologies Used
+* **Getting Started
+* **Prerequisites
+* **Installation
+* **Usage
+* **Endpoints
+* **Contributing
+* **License
+
+Introduction
+This backend repository is the heart of the application's functionality. It provides the APIs necessary to manage products and categories, along with the ability to upload photos. The codebase is a testament to the power of adaptability and craftsmanship in the face of challenges.
+
+Technologies Used
+*Node.js
+*Fastify
+*Prisma
+*Multer
+*Getting Started
+*Prerequisites
+*Node.js (v14 or higher)
+*npm (Node Package Manager)
+*Installation
+*Clone this repository to your local machine.
+
+Navigate to the cloned directory using a terminal.
+
+#Install the required dependencies by running:
+
+bash
+Copy code
+npm install
+Usage
+To start the backend server, run the following command:
+
+bash
+Copy code
+npm start
+The server will be available at http://localhost:4000.
+
+* ***Endpoints
+* **POST /api/uploadphoto - Upload a photo
+* **GET /api/products - Get all products
+* **GET /api/product/:id - Get a specific product
+* **POST /api/product - Create a new product
+* **PUT /api/product/:id - Update a product
+* **DELETE /api/product/:id - Delete a product
+* **GET /api/categories - Get all categories
+* **GET /api/category/:id - Get a specific category
+* **POST /api/category - Create a new category
+* **PUT /api/category/:id - Update a category
+* **DELETE /api/category/:id - Delete a category
+
+#Contributing
+Contributions are welcome! If you find any issues or improvements, feel free to submit a pull request or create an issue in this repository.
+
+
+
+
+
+
+## Vue-Tree-List Frontend
+
 
 A vue component for tree structure. Support adding treenode/leafnode, editing node's name and dragging.
 
@@ -17,6 +89,9 @@ Vue.use(VueTreeList)
 ```
 
 Or just register locally like the example below.
+
+# Props and Events
+The Vue-Tree-List component comes with a variety of props and events to customize its behavior. Please refer to the original Vue-Tree-List documentation for more information on these.
 
 # use
 
