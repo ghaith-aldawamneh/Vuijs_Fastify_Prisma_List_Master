@@ -49,17 +49,17 @@ npm start
 The server will be available at http://localhost:4000.
 
 * ***Endpoints
-* **POST /api/uploadphoto - Upload a photo
-* **GET /api/products - Get all products
-* **GET /api/product/:id - Get a specific product
-* **POST /api/product - Create a new product
-* **PUT /api/product/:id - Update a product
-* **DELETE /api/product/:id - Delete a product
-* **GET /api/categories - Get all categories
-* **GET /api/category/:id - Get a specific category
-* **POST /api/category - Create a new category
-* **PUT /api/category/:id - Update a category
-* **DELETE /api/category/:id - Delete a category
+* **POST** /api/uploadphoto - Upload a photo
+* **GET** /api/products - Get all products
+* **GET** /api/product/:id - Get a specific product
+* **POST** /api/product - Create a new product
+* **PUT** /api/product/:id - Update a product
+* **DELETE** /api/product/:id - Delete a product
+* **GET** /api/categories - Get all categories
+* **GET** /api/category/:id - Get a specific category
+* **POST** /api/category - Create a new category
+* **PUT** /api/category/:id - Update a category
+* **DELETE** /api/category/:id - Delete a category
 
 #Contributing
 Contributions are welcome! If you find any issues or improvements, feel free to submit a pull request or create an issue in this repository.
