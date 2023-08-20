@@ -8,30 +8,30 @@ Welcome to the backend repository of the remarkable project that epitomizes dedi
 
 
 #Table of Contents
-* **Introduction
-* **Technologies Used
-* **Getting Started
-* **Prerequisites
-* **Installation
-* **Usage
-* **Endpoints
-* **Contributing
-* **License
+* **Introduction**
+* **Technologies Used**
+* **Getting Started**
+* **Prerequisites**
+* **Installation**
+* **Usage**
+* **Endpoints**
+* **Contributing**
+* **License**
 
 Introduction
 This backend repository is the heart of the application's functionality. It provides the APIs necessary to manage products and categories, along with the ability to upload photos. The codebase is a testament to the power of adaptability and craftsmanship in the face of challenges.
 
 Technologies Used
-*Node.js
-*Fastify
-*Prisma
-*Multer
-*Getting Started
-*Prerequisites
-*Node.js (v14 or higher)
-*npm (Node Package Manager)
-*Installation
-*Clone this repository to your local machine.
+*Node.js*
+*Fastify*
+*Prisma*
+*Multer*
+*Getting Started*
+*Prerequisites*
+*Node.js (v14 or higher)*
+*npm (Node Package Manager)*
+*Installation*
+*Clone this repository to your local machine.*
 
 Navigate to the cloned directory using a terminal.
 
